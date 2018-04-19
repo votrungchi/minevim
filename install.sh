@@ -1,5 +1,5 @@
 #!/bin/bash
-${minevim_dir}="$(pwd)"
+minevim_dir="$(pwd)"
 
 ln -s ${minevim_dir}/.vimrc ~/.vimrc
 ln -s ${minevim_dir}/.vim ~/.vim
