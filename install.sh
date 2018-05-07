@@ -12,5 +12,10 @@ ln -s ${minevim_dir}/.vim ~/.vim
 ln -s ${minevim_dir}/.tmux.conf ~/.tmux.conf
 
 #initialize plugins 
-git submodule update --init
+git submodule update --init --recursive
 
+# install YCM for Ubuntu Linux x64
+#sudo apt-get install build-essential cmake
+#sudo apt-get install python-dev python3-dev
+#cd ~/.vim/bundle/YouCompleteMe
+#./install.py --clang-completer
