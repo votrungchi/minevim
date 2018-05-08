@@ -1,4 +1,4 @@
-autocmd BufWritePre *.py :%s/\s\+$//e
+autocmd BufWritePre * :%s/\s\+$//e
 "autocmd vimenter * NERDTree
 set tabstop=4
 execute pathogen#infect()
