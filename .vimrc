@@ -1,3 +1,4 @@
+set encoding=utf-8
 autocmd BufWritePre * :%s/\s\+$//e
 "autocmd vimenter * NERDTree
 set tabstop=4
