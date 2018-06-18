@@ -5,5 +5,6 @@ set tabstop=4
 set nu
 execute pathogen#infect()
 syntax on
+color dracula
 set hlsearch
 filetype plugin indent on
