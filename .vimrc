@@ -7,4 +7,7 @@ execute pathogen#infect()
 syntax on
 color dracula
 set hlsearch
-filetype plugin indent on
+"set expandtab
+"filetype plugin indent on
+set listchars=eol:$,tab:>-,trail:~,extends:>,precedes:<
+set list
