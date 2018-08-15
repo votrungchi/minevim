@@ -12,3 +12,7 @@ set colorcolumn=80
 "filetype plugin indent on
 set listchars=tab:>-,trail:~,extends:>,precedes:<
 set list
+"Most likely, the "problem" you're seeing is that you can't delete anything
+"that was not typed during your current insert mode session.
+"This is due to the default setting for the 'backspace' option.
+set backspace=indent,eol,start
