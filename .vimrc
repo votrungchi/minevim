@@ -5,13 +5,19 @@ set tabstop=4
 set nu
 execute pathogen#infect()
 syntax on
-color dracula
+"color dracula
 set hlsearch
 set colorcolumn=80
 "set expandtab
 "filetype plugin indent on
-set listchars=tab:>-,trail:~,extends:>,precedes:<
-set list
+
+"Show all symbol characters
+"set listchars=tab:>-,trail:~,extends:>,precedes:<
+"set list
+
+"Underline the current line
+set cursorline
+
 "Most likely, the "problem" you're seeing is that you can't delete anything
 "that was not typed during your current insert mode session.
 "This is due to the default setting for the 'backspace' option.
