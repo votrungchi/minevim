@@ -8,7 +8,7 @@ syntax on
 "color dracula
 set hlsearch
 set colorcolumn=80
-"set expandtab
+set expandtab
 "filetype plugin indent on
 
 "Show all symbol characters
