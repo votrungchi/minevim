@@ -2,9 +2,9 @@
 minevim_dir="$(pwd)"
 
 #backup current configurations
-mv ~/.vimrc ~/.vimrc.backup
-mv ~/.vim ~/.vim.backup
-mv ~/.tmux.conf ~/.tmux.conf.backup
+mv -f ~/.vimrc ~/.vimrc.backup
+mv -f ~/.vim ~/.vim.backup
+mv -f ~/.tmux.conf ~/.tmux.conf.backup
 
 #create softlink to new configurations
 ln -s ${minevim_dir}/.vimrc ~/.vimrc
