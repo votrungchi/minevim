@@ -6,6 +6,8 @@ set nu
 execute pathogen#infect()
 syntax on
 "color dracula
+hi Search guibg=blue guifg=black
+hi Search cterm=NONE ctermfg=black ctermbg=blue
 set hlsearch
 set colorcolumn=80
 set expandtab
