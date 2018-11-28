@@ -22,3 +22,6 @@ set cursorline
 "that was not typed during your current insert mode session.
 "This is due to the default setting for the 'backspace' option.
 set backspace=indent,eol,start
+
+"Quickfix window commands respect the switchbuf option when opening a buffer.
+set switchbuf+=usetab,newtab
