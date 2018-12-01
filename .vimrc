@@ -10,6 +10,8 @@ hi Search guibg=blue guifg=black
 hi Search cterm=NONE ctermfg=black ctermbg=blue
 set hlsearch
 set colorcolumn=80
+highlight ColorColumn ctermbg=darkgrey guibg=darkgrey
+
 set expandtab
 "filetype plugin indent on
 
