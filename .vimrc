@@ -30,5 +30,7 @@ set backspace=indent,eol,start
 "Quickfix window commands respect the switchbuf option when opening a buffer.
 set switchbuf+=usetab,newtab
 
-" Set global YCM's config (C++)
-let g:ycm_global_ycm_extra_conf = '~/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/.ycm_extra_conf.py'
+" Setting global YCM's config (C++)
+" Copy .vim/.ycm_extra_conf.py to your project folder,
+" then update and uncomment the cmd below:
+" let g:ycm_extra_conf_globlist = 'path/to/your/project/'
