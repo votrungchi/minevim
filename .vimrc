@@ -4,8 +4,10 @@ autocmd BufWritePre * :%s/\s\+$//e
 set tabstop=4
 set nu
 execute pathogen#infect()
+
+let g:dracula_italic = 0
 syntax on
-"color dracula
+color dracula
 hi Search guibg=blue guifg=black
 hi Search cterm=NONE ctermfg=black ctermbg=blue
 set hlsearch
@@ -34,3 +36,6 @@ set switchbuf+=usetab,newtab
 " Copy .vim/.ycm_extra_conf.py to your project folder,
 " then update and uncomment the cmd below:
 " let g:ycm_extra_conf_globlist = 'path/to/your/project/'
+
+" Load ycm conf by default
+let g:ycm_confirm_extra_conf=0
