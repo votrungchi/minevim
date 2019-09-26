@@ -16,3 +16,9 @@
 [submodule ".vim/bundle/dracula-theme"]
 	path = .vim/bundle/dracula-theme
 	url = https://github.com/dracula/vim.git
+[submodule ".vim/bundle/tagbar"]
+	path = .vim/bundle/tagbar
+	url = https://github.com/majutsushi/tagbar.git
+[submodule ".vim/bundle/space-vim-dark"]
+	path = .vim/bundle/space-vim-dark
+	url = https://github.com/liuchengxu/space-vim-dark.git

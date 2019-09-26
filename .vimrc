@@ -7,19 +7,20 @@ execute pathogen#infect()
 
 let g:dracula_italic = 0
 syntax on
-color dracula
+color space-vim-dark
+
 hi Search guibg=blue guifg=black
 hi Search cterm=NONE ctermfg=black ctermbg=blue
 set hlsearch
 set colorcolumn=80
-highlight ColorColumn ctermbg=darkgrey guibg=darkgrey
 
 set expandtab
 "filetype plugin indent on
 
 "Show all symbol characters
-"set listchars=tab:>-,trail:~,extends:>,precedes:<
-"set list
+set showbreak=↪\
+set listchars=tab:→\ ,eol:↲,nbsp:␣,trail:•,extends:⟩,precedes:⟨
+set list
 
 "Underline the current line
 set cursorline
