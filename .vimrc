@@ -1,18 +1,25 @@
 set encoding=utf-8
 autocmd BufWritePre * :%s/\s\+$//e
-"autocmd vimenter * NERDTree
+autocmd vimenter * NERDTree
+
+"augroup CustomCursorLine
+"au!
+"au ColorScheme * :hi! CursorLine gui=underline cterm=underline
+"augroup END
+
 set tabstop=4
 set nu
 execute pathogen#infect()
 
 let g:dracula_italic = 0
 syntax on
-color space-vim-dark
+"color space-vim-dark
+colorscheme dracula
 
-hi Search guibg=blue guifg=black
-hi Search cterm=NONE ctermfg=black ctermbg=blue
+"hi Search guibg=blue guifg=black
+"hi Search cterm=NONE ctermfg=black ctermbg=blue
 set hlsearch
-set colorcolumn=80
+set colorcolumn=120
 
 set expandtab
 "filetype plugin indent on
