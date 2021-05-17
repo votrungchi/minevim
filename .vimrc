@@ -11,10 +11,10 @@ set tabstop=4
 set nu
 execute pathogen#infect()
 
-let g:dracula_italic = 0
 syntax on
-"color space-vim-dark
-colorscheme dracula
+let g:gruvbox_contrast_dark = 'hard'
+colorscheme gruvbox
+set bg=dark
 
 "hi Search guibg=blue guifg=black
 "hi Search cterm=NONE ctermfg=black ctermbg=blue
