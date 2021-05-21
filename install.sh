@@ -5,17 +5,14 @@ minevim_dir="$(pwd)"
 mv -f ~/.vimrc ~/.vimrc.backup
 mv -f ~/.vim ~/.vim.backup
 mv -f ~/.tmux.conf ~/.tmux.conf.backup
+mv -f ~/.tmux ~/.tmux.backup
 
 #create softlink to new configurations
 ln -s ${minevim_dir}/.vimrc ~/.vimrc
 ln -s ${minevim_dir}/.vim ~/.vim
 ln -s ${minevim_dir}/.tmux.conf ~/.tmux.conf
+ln -s ${minevim_dir}/.tmux ~/.tmux
 
 #initialize plugins
 git submodule update --init --recursive
 
-# install YCM for Ubuntu Linux x64
-#sudo apt-get install build-essential cmake
-#sudo apt-get install python-dev python3-dev
-#cd ~/.vim/bundle/YouCompleteMe
-#./install.py --clang-completer
