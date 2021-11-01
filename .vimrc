@@ -1,6 +1,8 @@
 set encoding=utf-8
 autocmd BufWritePre * :%s/\s\+$//e
-autocmd vimenter * NERDTree
+"autocmd vimenter * NERDTree
+
+let mapleader = "-"
 
 call plug#begin('~/.vim/plugins')
 Plug 'vim-airline/vim-airline'
@@ -14,6 +16,7 @@ Plug 'morhetz/gruvbox'
 Plug 'majutsushi/tagbar'
 Plug 'kien/ctrlp.vim'
 Plug 'frazrepo/vim-rainbow'
+Plug 'zivyangll/git-blame.vim'
 call plug#end()
 
 augroup CustomCursorLine
@@ -77,5 +80,5 @@ let g:rainbow_load_separately = [
 let g:rainbow_guifgs = ['RoyalBlue3', 'DarkOrange3', 'DarkOrchid3', 'FireBrick']
 let g:rainbow_ctermfgs = ['lightblue', 'lightgreen', 'yellow', 'red', 'magenta']
 
-
+nnoremap <Leader>s :<C-u>call gitblame#echo()<CR>
 
