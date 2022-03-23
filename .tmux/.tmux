@@ -1,1 +1,1 @@
-/home/vcr1hc/minevim/.tmux
+/home/chivo/minevim/.tmux

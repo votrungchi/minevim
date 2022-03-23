@@ -57,7 +57,7 @@ set backspace=indent,eol,start
 "Quickfix window commands respect the switchbuf option when opening a buffer.
 set switchbuf+=usetab,newtab
 
-let g:clang_library_path='/usr/lib/x86_64-linux-gnu/libclang-6.0.so.1'
+let g:clang_library_path='/usr/lib/x86_64-linux-gnu/libclang-10.so.1'
 
 let g:airline_powerline_fonts = 1
 if !exists('g:airline_symbols')

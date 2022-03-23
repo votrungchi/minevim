@@ -1,1 +1,1 @@
-/home/vcr1hc/minevim/.vim
+/home/chivo/minevim/.vim
