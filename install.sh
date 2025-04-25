@@ -2,7 +2,7 @@
 minevim_dir="$(pwd)"
 
 #install all dependencies
-sudo apt install silversearcher-ag
+#sudo apt install silversearcher-ag
 
 #run this to install
 #git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
